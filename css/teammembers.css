@@ -1,76 +1,44 @@
-/********** Images  *********/
-.teamMemberRightColImage {
-    margin-left:40%;
-    display: inline-block;
-    border-radius: 50%;
-    overflow: hidden;
-    width:20%;
-    }
+/************* Containers ************/
 
-.teamMemberLeftColImage{
-    margin-left:40%;
-    display: inline-block;
-    border-radius: 50%;
-    overflow: hidden;
-    width:20%;
-}
-h2{
-    color:#085466;
-}
-/********* Card  *******/
-.teamMemberLeftCol{
-    margin:1.5%;
-    float:left;
+.teamMemberCard{
+    margin: 1.5%;
     padding: 2%;
     border: 1px solid #246461;
-    border-radius: 6%;
-    box-shadow: 3px 3px 10px rgb(165, 165, 165);
+    border-radius: 1.375rem;
+    box-shadow: 2px 2px 5px rgb(191, 190, 190);
     background-color: white;
 }
 
-.teamMemberRightCol{
-    margin:1.5%;
-    float:right;
-    padding: 2%;
-    border: 1px solid #246461;
-    border-radius: 6%;
-    box-shadow: 3px 3px 10px rgb(165, 165, 165);
-    background-color: white;
-}
+/*********** Headings ***********/
 
-.teamMemberRow{
-    justify-content: space-evenly;
-    height:20%;
-    margin: 2% 0;  
-    
-}
-
-.a{
-    color:black;
-}
-
-h2{
+.teamMemberMainHeading {
+    color: #246461;
     text-align: center;
+    font-family: 'Noto Serif Georgian', serif;
 }
 
-.card-text{
-    color:#316F7E;
+.teamMemberCardTitle{
+    color: #246461;
+    font-family: 'Noto Serif Georgian', serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.2em;
 }
 
+/*********** Text ***********/
 
+.teamMemberCardText {
+    color: #246461;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    text-align: justify;
+}
 
-/* mobile view */
-@media (max-width: 700px) {
-    .teamMemberRow {   
-      flex-direction: column;
-    }
-    
-    .teamMemberLeftCol{
-        flex: 30%;
-        margin-left:100px;
-    }
+/********** Images  *********/
 
-    .teamMemberRightCol{
-        margin-left:100px;
-    }
-  }
+.teamMemberCardImage {
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    width:40%;
+}
+
