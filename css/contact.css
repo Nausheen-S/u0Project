@@ -1,5 +1,5 @@
 .profile-img{
-    width: 80%;
+    width: 90%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     margin: 0 auto;
     display: block;
@@ -44,7 +44,9 @@ border: 3px solid black;
     transition: .5s;
     border: 0;
     border-radius: 2.5em;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     position: relative;
     width: 100%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -55,6 +57,10 @@ border: 3px solid black;
 /****************** 
     FORM STYLING 
 ******************/
+.contact-btn{
+    margin: 0 1%;
+}
+
 
 .section-title h1{
     color: #246461;
@@ -67,7 +73,19 @@ border: 3px solid black;
     border-radius: .5em;
     padding: 1%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
 
+hr{
+    margin-bottom: 5%;
+}
+
+.form-img{
+    width: 30%;
+    margin-right: 8%;
+}
+
+label{
+    white-space: nowrap;
 }
 
 .contact input, textarea{
