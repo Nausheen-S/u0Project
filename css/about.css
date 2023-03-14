@@ -1,39 +1,49 @@
-/* Headers */
-.RightConten{
-    margin-left:-6%;
-    text-align: right;
+/************* Containers ************/
+
+.aboutBodyTopRow,
+.aboutBodyMidRow,
+.aboutBodyBottomRow {
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*********** Headings ***********/
+
+.aboutBodyMainHeading {
+    color: #246461;
+    text-align: center;
+    font-family: 'Noto Serif Georgian', serif;
+    margin-bottom: 3%;
+}
+
+.aboutBodyTopLeftColHeading,
+.aboutBodyMidRightColHeading,
+.aboutBodyBottomLeftColHeading {
     color:#882D17;
+    font-family: 'Noto Serif Georgian', serif;
+    margin-bottom: 3%;
 }
 
 
-/* Contents */
+/*********** Text ***********/
 
-.ParaLeftContent{
-    font-size: 24px;;
+.aboutBodyTopLeftColText,
+.aboutBodyMidRightColText,
+.aboutBodyBottomLeftColText {
+    color:#882D17;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 16pt;
+    text-align: justify;
 }
 
-.RightContent{
-    font-size: 24px;;
-}
+/*********** Images ***********/
 
-.LeftContent{
-    color:#882D17
+.aboutBodyTopRightColImg,
+.aboutBodyMidLeftColImg,
+.aboutBodyBottomRightColImg {
+    width: 90%;
+    height: 100%;
+    margin: auto;
 }
-
-.RightContent{
-    color:#882D17
-}
-/* Images  */
-.RightContentImage{
-    margin-top: -2%;;
-}
-.LeftContentImage_u0{
-   margin-left:10%;
-}
-
-@media only screen and (max-width: 600px) {
-
-    .RightContentImage{
-        margin-top: 2%;;
-    }
-  }
