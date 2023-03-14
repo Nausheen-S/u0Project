@@ -2,6 +2,7 @@
 
 .jobBodyRow {
     justify-content: space-evenly;
+    box-sizing: border-box;
     margin-top: 5%;
 }
 
