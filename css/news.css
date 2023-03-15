@@ -1,0 +1,25 @@
+
+.card {
+    background: #fff;
+    margin-bottom: 30px;
+    transition: .5s;
+    border: 0;
+    border-radius: 2.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn{
+    background-color: #3E605F;
+}
+
+
+.news-img{
+    margin: 5% 0 ;
+    width: 100%;
+    border-radius: 10%;
+}
