@@ -17,6 +17,7 @@ body {
     font-weight: bold;
     font-size: 15pt;
     font-family: 'Noto Serif Georgian', serif;
+    margin-left: 1em;
 }
 
 .dropdown-item:hover,
