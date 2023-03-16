@@ -12,50 +12,59 @@
         <link rel="stylesheet" href="../css/contact.css"/>
         <!--Scripts-->
         <script src="../scripts/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        
-    
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@500&display=swap" rel="stylesheet">   
     </head>
     <body>
         <header>
-            <div class="row">
-                <div class="col-2">
-                    <a class="navbar-brand" href="#">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="home.html">
                         <img src="../images/u0_logo.png" alt="Logo" class="d-inline-block align-text-top logo">
                     </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="home.html" target="_top">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html" target="_top">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Get Involved
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="jobseeker.html" target="_top">Job Seekers</a></li>
+                                    <li><a class="dropdown-item" href="donatevolunteer.html#donate" target="_top">Donate</a></li>
+                                    <li><a class="dropdown-item" href="donatevolunteer.html#volunteer" target="_top">Volunteer</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="news.html" target="_top">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html" target="_top">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-10">
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About Us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="jobseeker.html" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Get Involved
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="jobseeker.html">Job Seekers</a></li>
-                                <li><a class="dropdown-item" href="#">Donate</a></li>
-                                <li><a class="dropdown-item" href="#">Volunteer</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../html/news.html">News</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../html/contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            </nav>
         </header>
+    
+        <!-- PROFILES -->
 
         <div class="container team-profile">
-            <div class="row">
-                <div class="col-xl-6 col-lg-7 col-md-12">
+            <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-7 col-md-12">
                     <div class="card team-head-profile">
                         <div class="body">
                             <div class="row">
@@ -69,20 +78,23 @@
                                     <p>Lansdale, PA USA</p>
                                     <p><a href="mailto:tedtyree@gmail.com">tedtyree@gmail.com</a></p>
                                     <p><a href="tel:215-806-2075"></a>01 215-806-2075</a></p>
-                                    <div class="div-btn">
-                                        <button class="btn btn-primary btn-round">Follow</button>
-                                        <button class="btn btn-primary btn-round btn-simple">Message</button>
-                                    </div>
                                 </div>
-
                             </div>
+
+                            <div class="row">
+                                <div class="col-md-12 d-flex justify-content-end">
+                                  <button  class="contact-btn btn btn-primary ">Follow</button>
+                                  <button  class="contact-btn btn btn-secondary">Message</button>
+                                </div>
+                            </div>
+                              
                         </div>
                     </div>
                 </div>
 
 
                 
-                    <div class="col-xl-6 col-lg-7 col-md-12">
+                    <div class="col-xl-5 col-lg-7 col-md-12">
                         <div class="card team-head-profile">
                             <div class="body">
                                 <div class="row">
@@ -96,12 +108,14 @@
                                         <p>Machakos, Kenya</p>
                                         <p><a href="mailto:nzumoalex@gmail.com">nzumoalex@gmail.com</a></p>
                                         <p><a href="tel:254 759 465 959"></a>254 759 465 959</a></p>
-                                        <div class="div-btn">
-                                            <button class="btn btn-primary btn-round">Follow</button>
-                                            <button class="btn btn-primary btn-round btn-simple">Message</button>
-                                        </div>
                                     </div>
-    
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <button  class="contact-btn btn btn-primary ">Follow</button>
+                                      <button  class="contact-btn btn btn-secondary">Message</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -110,8 +124,8 @@
             
 
 
-            <div class="row">
-                <div class="col-xl-6 col-lg-7 col-md-12">
+            <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-7 col-md-12">
                     <div class="card team-head-profile">
                         <div class="body">
                             <div class="row">
@@ -125,87 +139,98 @@
                                     <p>Makueni, Kenya</p>
                                     <p><a href="mailto:gmuthini1996@gmail.com">gmuthini1996@gmail.com</a></p>
                                     <p><a href="tel:254 792 419 771"></a>254 792 419 771</a></p>
-                                    <div class="div-btn">
-                                        <button class="btn btn-primary btn-round">Follow</button>
-                                        <button class="btn btn-primary btn-round btn-simple">Message</button>
-                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 d-flex justify-content-end">
+                                  <button  class="contact-btn btn btn-primary ">Follow</button>
+                                  <button  class="contact-btn btn btn-secondary">Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-5 col-lg-7 col-md-12">
+                    <div class="card team-head-profile">
+                        <div class="body">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 col-12">
+                                    <div class="profile-picture float-md-right"> <img class="profile-img" src="../images/Arich.png" alt=""> </div>
                                 </div>
 
+                                <div class="col-lg-8 col-md-8 col-12">
+                                    <h4 class="m-t-0 m-b-0"><strong>Arich</strong> Mutua</h4>
+                                    <p>Job Title</p>                                    
+                                    <p>Machakos, Kenya</p>
+                                    <p><a href="mailto:arichmutua@gmail.com">arichmutua@gmail.com</a></p>
+                                    <p><a href="tel:254 719 224 481"></a>254 719 224 481</a></p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 d-flex justify-content-end">
+                                  <button  class="contact-btn btn btn-primary ">Follow</button>
+                                  <button  class="contact-btn btn btn-secondary">Message</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                    <div class="col-xl-6 col-lg-7 col-md-12">
-                        <div class="card team-head-profile">
-                            <div class="body">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-4 col-12">
-                                        <div class="profile-picture float-md-right"> <img class="profile-img" src="../images/Arich.png" alt=""> </div>
-                                    </div>
-    
-                                    <div class="col-lg-8 col-md-8 col-12">
-                                        <h4 class="m-t-0 m-b-0"><strong>Arich</strong> Mutua</h4>
-                                        <p>Job Title</p>                                    
-                                        <p>Machakos, Kenya</p>
-                                        <p><a href="mailto:arichmutua@gmail.com">arichmutua@gmail.com</a></p>
-                                        <p><a href="tel:254 719 224 481"></a>254 719 224 481</a></p>
-                                        <div class="div-btn">
-                                            <button class="btn btn-primary btn-round">Follow</button>
-                                            <button class="btn btn-primary btn-round btn-simple">Message</button>
-                                        </div>
-                                    </div>
-    
-                                </div>
-                            </div>
-                        </div>
-                    </div>
             </div>
         </div>
 
-        <!-- <div id="contact-form" class="contact-section section-padding">
-            <div class="container">
-                <div class="section-title text-center">
-                    <h1>Get in Touch</h1>
-                </div>
+        <!-- CONTACT FORM --> 
 
-            </div>
-        </div>
- -->
         <div id="contact-form" class="contact-section section-padding">
             <div class="container">
                 <div class="section-title text-center">
                     <h1>Get in Touch</h1>
                 </div>
-                <div class="row">
-                    <div class="col-lg-7">	
-                        <div class="contact">
-                            <form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
-                                <div class="row">
-                                    <div class="form-group col-md-8">
-                                        <input type="text" name="name" class="form-control" placeholder="Name" required="required">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-md-8">
-                                        <input type="email" name="email" class="form-control" placeholder="Email" required="required">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-md-8">
-                                        <input type="text" name="Subject" class="form-control" placeholder="Subject" required="required">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col-md-8" >
-                                        <textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 text-center">
-                                        <button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-contact-bg" title="Submit Your Message!">Send Message</button>
-                                    </div>
-                                </div>
+                <hr>
+                <form>
+                <div class="formrows mb-3 row">
+                    <div class="col-2"></div>
+                    <label for="username" class="col-sm-2 col-form-label"> <img class="form-img col-sm-1" src="../images/user.png"/>Name</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="username" required>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                      
+                
+                <div class="formrows mb-3 row">
+                    <div class="col-2"></div>
+                    <label for="phone" class="col-sm-2 col-form-label"> <img class="form-img col-sm-1" src="../images/Phone.png"/>Phone</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="phone" required>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+
+                <div class="formrows mb-3 row">
+                    <div class="col-2"></div>
+                    <label for="email" class="col-sm-2 col-form-label"> <img class="form-img col-sm-1" src="../images/mail.png"/>Email</label>
+                    <div class="col-sm-6">
+                      <input type="text" class="form-control" id="email" required>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+
+                <div class="formrows mb-3 row">
+                    <div class="col-2"></div>
+                    <label for="message" class="col-sm-2 col-form-label"> <img class="form-img col-sm-1" src="../images/msg.png"/>Message</label>
+                    <div class="col-sm-6">
+                      <textarea rows="6" name="message" class="form-control" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+
+                <div class="mb-3 row justify-content-center">
+                        <button type="submit" value="Send message" name="submit" id="submitButton" class="col-auto btn btn-contact-bg " title="Submit Your Message!">Send Message</button>
+                </div>
                             </form>
                         </div>
                     </div>
@@ -221,3 +246,4 @@
         </footer>
     </body>
 </html>
+       

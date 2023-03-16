@@ -141,3 +141,15 @@
         width: 58%;
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    /*********** Images ***********/
+
+    /* Right */
+    .bi-laptop-fill,
+    .bi-book-half,
+    .bi-card-text {
+        display: none;
+    }
+}
