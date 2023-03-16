@@ -2,6 +2,18 @@
 
 .homeBodyRow {
     height: 100vh;
+    position: relative;
+    margin: auto;
+}
+
+.homeBodyLeftCol {
+    position: relative;
+    
+}
+
+.homeBodyRightCol {
+    position: relative;
+    z-index: 1;
 }
 
 /*********** Headings ***********/
@@ -9,6 +21,17 @@
 .homeBodyLeftColHeading{
     font-family: 'Noto Serif Georgian', serif;
     color: #882D17;
+}
+
+.homeBodyRightCol h1 {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -45%);
+    z-index: 1;
+    background-color: brown;
+    padding: 10px;
+    color: white;
 }
 
 /*********** Text ***********/
@@ -24,7 +47,10 @@
 /*********** Images ***********/
 
 .homeBodyRightColImg {
-    width: 90%;
+    margin-left: auto;
+    display: block;
+    width: 70%;
+    height: auto;
 }
 
 /*********** Buttons ***********/
@@ -69,44 +95,9 @@
 }
 
 
-/*
-
-.homeImage{
-    width:100%;
-}
-
-.homeSlogan{
-    background-color:#7E331F;
-
-}
 
 
 
-.homeSlogan{
-    width:17%;
-    z-index: 1;
-}
-
-.homeBodyLeftColHeading{
-    color:#882D17;
-}
 
 
 
-.homeBodyLeftColText{
-    color:#085466;
-    font-size:24px ;
-}
-
-
-
-.homeBodyLeftCol{
-    margin:6%;
-    border:1px solid; 
-}
-
-.homeBtn{
-    font-size:15pt;
-    width:22%;
-}
-*/
