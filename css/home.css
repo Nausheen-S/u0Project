@@ -2,6 +2,18 @@
 
 .homeBodyRow {
     height: 100vh;
+    position: relative;
+    margin: auto;
+}
+
+.homeBodyLeftCol {
+    position: relative;
+    
+}
+
+.homeBodyRightCol {
+    position: relative;
+    z-index: 1;
 }
 
 /*********** Headings ***********/
@@ -9,6 +21,18 @@
 .homeBodyLeftColHeading{
     font-family: 'Noto Serif Georgian', serif;
     color: #882D17;
+}
+
+.homeBodyRightCol h1 {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -45%);
+    z-index: 1;
+    background-color: #882D17;
+    padding: 1em;
+    color: white;
+    font-family: 'Noto Serif Georgian', serif;
 }
 
 /*********** Text ***********/
@@ -24,7 +48,10 @@
 /*********** Images ***********/
 
 .homeBodyRightColImg {
-    width: 90%;
+    margin-left: auto;
+    display: block;
+    width: 70%;
+    height: auto;
 }
 
 /*********** Buttons ***********/
@@ -48,12 +75,44 @@
 
 /******************************************/
 
+@media screen and (max-width: 1112px) {
+
+    /*********** Headings ***********/
+
+    .homeBodyRightCol h1 {
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width: 998px) {
+
+    /*********** Containers ***********/
+
+    .homeBodyRow {
+        height: auto;
+    }
+
+
+     /*********** Headings ***********/
+
+    .homeBodyRightCol h1 {
+        font-size: 1.5rem;
+    }
 
     /*********** Text ***********/
     
     .homeBodyLeftColText{
         text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 765px) {
+
+    /*********** Text ***********/
+    
+    .homeBodyLeftColText{
+        text-align: justify;
     }
 
 }
@@ -68,45 +127,20 @@
 
 }
 
+@media screen and (max-width: 485px) {
 
-/*
+     /*********** Headings ***********/
 
-.homeImage{
-    width:100%;
-}
-
-.homeSlogan{
-    background-color:#7E331F;
+    .homeBodyRightCol h1 {
+        font-size: 1.3rem;
+    }
 
 }
 
 
 
-.homeSlogan{
-    width:17%;
-    z-index: 1;
-}
-
-.homeBodyLeftColHeading{
-    color:#882D17;
-}
 
 
 
-.homeBodyLeftColText{
-    color:#085466;
-    font-size:24px ;
-}
 
 
-
-.homeBodyLeftCol{
-    margin:6%;
-    border:1px solid; 
-}
-
-.homeBtn{
-    font-size:15pt;
-    width:22%;
-}
-*/
