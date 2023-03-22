@@ -107,12 +107,32 @@
 
 }
 
+@media screen and (max-width: 765px) {
+
+    /*********** Text ***********/
+    
+    .homeBodyLeftColText{
+        text-align: justify;
+    }
+
+}
+
 @media screen and (max-width: 600px) {
 
     /*********** Container ***********/
     
     .homeBodyLeftCol{
         margin-bottom: 5%;
+    }
+
+}
+
+@media screen and (max-width: 485px) {
+
+     /*********** Headings ***********/
+
+    .homeBodyRightCol h1 {
+        font-size: 1.3rem;
     }
 
 }
