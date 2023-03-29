@@ -1,6 +1,9 @@
 # Project Name
 - u0Project
 
+# Client Name:
+- Ted Tyree
+
 # Team Name
 - ReCode4Change
 
@@ -42,4 +45,5 @@
 - Button (News Page): #3E605F (Teal)
 
 ## TypeFace and Sizing
-- 
+- Headings: Noto Serif Georgian
+- Text: Noto Sans Georgian
