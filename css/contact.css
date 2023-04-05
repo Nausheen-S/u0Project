@@ -1,5 +1,5 @@
 .profile-img{
-    width: 90%;
+    max-width: 90%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     margin: 0 auto;
     display: block;
@@ -98,4 +98,48 @@ label{
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     margin: 5% auto;
+}
+
+
+/*********** Headings ***********/
+
+.contactBodyBottomContainerHeading {
+    font-size: 20pt;
+    font-family: 'Noto Serif Georgian', serif;
+    margin-left: 0.5em;
+    color: #246461;
+}
+
+/*********** Text ***********/
+
+.contactBodyBottomContainerLabel {
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+/*********** Images ***********/
+
+svg {
+    fill: #246461;
+    margin-right: 0.5em;
+}
+
+
+
+@media screen and (max-width: 980px) {
+
+    /*********** Containers ***********/
+
+    #contact-form label {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 769px) {
+
+    /*********** Images ***********/
+
+    .profile-img {
+        width: 40%;
+    }
 }
