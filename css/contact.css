@@ -123,6 +123,13 @@ svg {
     margin-right: 0.5em;
 }
 
+/*********** Buttons ***********/
+
+.contactFormBtn,
+.contactFormBtn:hover,
+.contactFormBtn:focus {
+    background-color: #246461;
+}
 
 
 @media screen and (max-width: 980px) {
