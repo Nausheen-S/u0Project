@@ -47,3 +47,6 @@
 ## TypeFace and Sizing
 - Headings: Noto Serif Georgian
 - Text: Noto Sans Georgian
+
+# Project Link
+- [U0 Project](https://u0.heartofkenya.com/)
